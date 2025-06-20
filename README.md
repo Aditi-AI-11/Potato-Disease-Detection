@@ -13,6 +13,7 @@ The model is trained on a labeled dataset of potato leaf images and uses techniq
 
 Key Features -->
 
+
 High Accuracy: Achieved over 97% validation accuracy.
 
 Multiple Classes: Classifies healthy leaves and common potato diseases.
@@ -27,6 +28,7 @@ Training Visualization: Provides plots for training and validation accuracy/loss
 
 Dataset -->
 
+
 The dataset consists of labeled images of potato leaves categorized into:
 
 Healthy
@@ -35,7 +37,9 @@ Early Blight
 
 Late Blight
 
+
 -> Images are split into training, validation, and test sets.
+
 
 Model Architecture & Training -->
 
@@ -51,7 +55,9 @@ Learning rate scheduling used to reduce fluctuations in accuracy.
 
 Data augmentation applied to improve generalization.
 
+
 Performance Metrics -->
+
 
 Training Accuracy: ~99%
 
@@ -61,7 +67,9 @@ Test Accuracy: ~99%
 
 Plots of training & validation accuracy and loss are generated for detailed analysis.
 
+
 How to Use? -->
+
 
 Load and preprocess the dataset with training, validation, and test splits.
 
@@ -75,19 +83,24 @@ Use the prediction function to classify new images and get confidence scores.
 
 Visualize training progress and predictions using matplotlib plots.      
 
+
 Prediction Example --> 
+
 
 The model predicts the class and confidence score for input images.
 
 Visualization plots show actual vs predicted labels along with confidence percentages.
 
+
 Future Improvements -->
+
 
 Explore more complex architectures or transfer learning.
 
 Develop mobile or web apps for real-time disease detection.
 
 Expand dataset to cover more disease classes and conditions.
+
 
 Acknowledgements -->
 
